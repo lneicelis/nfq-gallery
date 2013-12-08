@@ -122,14 +122,6 @@
                             <i class="icon-tags" title="Tag photo"></i>
                         </a>
 
-                        <a href="{{ URL::action('PhotosController@postStatus') }}" class="ajax" data-id="{{ $photo->id }}" data-after="change-visibility">
-                            @if($photo->status === 0)
-                                <i class="icon-eye-open" title="Make this photo visible"></i>
-                            @else
-                                <i class="icon-eye-close" title="Make this photo invisible"></i>
-                            @endif
-                        </a>
-
                         <a href="{{ URL::action('PhotosController@postRotate', array('direction' =>'right')) }}" class="ajax" data-id="{{ $photo->id }}" data-after="rotate-right">
                             <i class="icon-rotate-right" title="Rotate photo 90"></i>
                         </a>
