@@ -4,6 +4,8 @@
 
 Working demo version can be found at:
 http://vineit.net/public/
+email: demo@demo.com
+password: demo123
 Respository:
 https://github.com/luknei/nfq-gallery or 
 https://github.com/luknei/nfq_laravel/tree/nfq_academy
